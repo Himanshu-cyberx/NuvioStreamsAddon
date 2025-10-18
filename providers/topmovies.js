@@ -18,7 +18,7 @@ const getAxiosCookieJarSupport = async () => {
 };
 
 // --- Domain Fetching ---
-let topMoviesDomain = 'https://topmovies.rodeo'; // Fallback domain
+let topMoviesDomain = 'https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/domains.json'; // Fallback domain
 let domainCacheTimestamp = 0;
 const DOMAIN_CACHE_TTL = 4 * 60 * 60 * 1000; // 4 hours
 
